@@ -53,7 +53,7 @@ export default async function SignupPage({
           <Input id="password" name="password" type="password" required className="h-11" />
         </div>
 
-        <Button type="submit" className="w-full h-11 bg-indigo-600 hover:bg-indigo-700 text-md">
+        <Button type="submit" className="w-full h-11 bg-black hover:bg-gray-800 text-md">
           Create Account
         </Button>
 
@@ -66,7 +66,7 @@ export default async function SignupPage({
 
       <div className="mt-8 text-center text-sm">
         <span className="text-gray-500">Already have an account? </span>
-        <Link href="/login" className="font-semibold text-indigo-600 hover:text-indigo-500 transition-colors">
+        <Link href="/login" className="font-semibold text-black hover:text-gray-700 transition-colors">
           Sign in
         </Link>
       </div>
